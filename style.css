@@ -535,4 +535,26 @@ figcaption {
     height: 42px;
     font-size: 21px;
   }
+  .dashboard-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 12px 18px;
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--bg);
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.dashboard-button:hover {
+  opacity: 0.82;
+  transform: translateY(-1px);
+} 
 }
