@@ -535,7 +535,7 @@ figcaption {
     height: 42px;
     font-size: 21px;
   }
-  .dashboard-button {
+ .dashboard-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -556,5 +556,4 @@ figcaption {
 .dashboard-button:hover {
   opacity: 0.82;
   transform: translateY(-1px);
-} 
 }
