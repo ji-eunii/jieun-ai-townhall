@@ -27,6 +27,7 @@ const REPORT = {
         ["주요 업무", "인스타그램 콘텐츠 기획·운영, 인플루언서 협업, 블로그 체험단 운영, 네이버플레이스 관리"],
         ["투입 인원", "콘텐츠 기획/운영 지은·수민, 총괄 성민 → 총 3명"],
         ["예산", "월 500만 원 리테이너, 총 5,000만 원"]
+        ["공유용 대시보드", "<a class='dashboard-button' href='https://hiz-brand-dashboard.vercel.app/clients/mirye-gukbap' target='_blank'>미례국밥 공유용 대시보드 바로가기 →</a>"]
       ],
       images: [
         {
