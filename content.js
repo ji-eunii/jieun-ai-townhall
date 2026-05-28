@@ -132,7 +132,7 @@ const REPORT = {
           caption: "고벤처포럼 인스타그램 피드"
         },
         {
-          src: "./assets/goventure-content.svg",
+          src: "./assets/goventure-content.jpg",
           caption: "고벤처포럼 홍보 포스터"
         }
       ],
