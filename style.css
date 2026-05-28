@@ -71,4 +71,18 @@ figcaption{margin-top:9px;color:var(--muted);font-size:12.5px;line-height:1.5;fo
   .table-row{grid-template-columns:1fr;gap:4px;padding:16px 0}
   .process{padding-left:0}
   .process::before{position:static;margin-bottom:14px;width:42px;height:42px;font-size:21px}
+  figure img,
+.image-grid figure img,
+.ai-image-grid figure img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+  object-position: center;
+}
+
+.image-grid,
+.ai-image-grid {
+  align-items: start;
+}
 }
