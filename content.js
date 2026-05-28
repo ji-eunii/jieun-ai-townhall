@@ -182,11 +182,11 @@ const REPORT = {
             images: [
               {
                 src: "./assets/goventure-ai-1.jpg",
-                caption: "녹취록/행사 내용 정리 예시"
+                caption: "AI가 정리해준 핵심 메시지를 사용해 제작한 휴닉 박진아 대표님 강연 카드뉴스"
               },
               {
                 src: "./assets/goventure-ai-2.jpg",
-                caption: "행사 후기 카드뉴스 초안 예시"
+                caption: "성민님께서 AI를 활용해서 제작하신 고벤처포럼 웹사이트!!!"
               }
             ],
             effect: [
