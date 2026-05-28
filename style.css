@@ -84,5 +84,17 @@ figcaption{margin-top:9px;color:var(--muted);font-size:12.5px;line-height:1.5;fo
 .image-grid,
 .ai-image-grid {
   align-items: start;
+  .image-grid figure img,
+.ai-image-grid figure img {
+  width: 100%;
+  height: 340px;
+  aspect-ratio: auto;
+  object-fit: contain;
+  object-position: center;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #eee7db;
+}
 }
 }
