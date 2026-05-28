@@ -7,29 +7,73 @@ function row(label, text) {
   `;
 }
 
+function renderImages(images = [], className = "image-grid") {
+  if (!images || images.length === 0) return "";
+  return `
+    <div class="${className}">
+      ${images.map((img) => `
+        <figure>
+          <img src="${img.src}" alt="${img.caption}">
+          <figcaption>${img.caption}</figcaption>
+        </figure>
+      `).join("")}
+    </div>
+  `;
+}
+
+function renderCases(cases = []) {
+  if (!cases || cases.length === 0) return "";
+  return `
+    <div class="case-grid">
+      ${cases.map((item, index) => `
+        <div class="case-card">
+          <span>${index + 1}</span>
+          <h4>${item.title}</h4>
+          <p>${item.description}</p>
+        </div>
+      `).join("")}
+    </div>
+  `;
+}
+
+function renderEffect(effect = []) {
+  if (!effect || effect.length === 0) return "";
+  return `
+    <div class="effect-grid effect-grid-${effect.length}">
+      ${effect.map(([label, text]) => `
+        <div>
+          <span>${label}</span>
+          <strong>${text}</strong>
+        </div>
+      `).join("")}
+    </div>
+  `;
+}
+
+function renderAiSections(project) {
+  const ai = project.ai || {};
+  const sections = ai.sections || [
+    {
+      title: ai.process,
+      cases: ai.cases,
+      images: ai.images,
+      effect: ai.effect
+    }
+  ];
+
+  return sections.map((section, index) => `
+    <div class="ai-section">
+      <p class="process" style="--num:'${index + 1}'">${section.title || ""}</p>
+      ${renderCases(section.cases)}
+      ${renderImages(section.images, "ai-image-grid")}
+      ${renderEffect(section.effect)}
+    </div>
+  `).join("");
+}
+
 function projectTemplate(project) {
   const overview = project.overview.map(([label, text]) => row(label, text)).join("");
-  const images = project.images.map((img) => `
-    <figure>
-      <img src="${img.src}" alt="${img.caption}">
-      <figcaption>${img.caption}</figcaption>
-    </figure>
-  `).join("");
-
-  const aiCases = project.ai.cases.map((item, index) => `
-    <div class="case-card">
-      <span>${index + 1}</span>
-      <h4>${item.title}</h4>
-      <p>${item.description}</p>
-    </div>
-  `).join("");
-
-  const effect = project.ai.effect.map(([label, text]) => `
-    <div>
-      <span>${label}</span>
-      <strong>${text}</strong>
-    </div>
-  `).join("");
+  const images = renderImages(project.images);
 
   const lessons = project.lessons.map((lesson) => `
     <div class="lesson-card">
@@ -49,7 +93,7 @@ function projectTemplate(project) {
         <h3>01 프로젝트 개요</h3>
         <p class="lead">${project.intro}</p>
         <div class="info-table">${overview}</div>
-        <div class="image-grid">${images}</div>
+        ${images}
       </section>
 
       <section class="section-block">
@@ -58,9 +102,7 @@ function projectTemplate(project) {
           <span>사용 툴</span>
           <strong>${project.ai.tool}</strong>
         </div>
-        <p class="process">“${project.ai.process}”</p>
-        <div class="case-grid">${aiCases}</div>
-        <div class="effect-grid">${effect}</div>
+        ${renderAiSections(project)}
       </section>
 
       <section class="section-block">
