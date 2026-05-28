@@ -56,11 +56,11 @@ const REPORT = {
             images: [
               {
                 src: "./assets/mirye-ai-1.jpg",
-                caption: "AI와 함께 콘텐츠 방향을 디벨롭한 예시"
+                caption: "AI 아이데이션 예시"
               },
               {
                 src: "./assets/mirye-ai-2.jpg",
-                caption: "AI 이미지/카드뉴스 초안을 피그마로 옮겨 수정한 예시"
+                caption: "AI가 제작한 재료 소개 카드뉴스 이미지"
               }
             ],
             effect: [
@@ -68,33 +68,7 @@ const REPORT = {
               ["After", "여러 방향의 초안을 비교하고 20~30분 내 최종본 작성, 촬영 비용 없음"]
             ]
           },
-          {
-            title: "<mark>러프한 아이디어를 여러 갈래로 확장하고, 브랜드 톤에 맞게 다시 정리</mark>",
-            cases: [
-              {
-                title: "아이디어 물꼬를 넓혀요!",
-                description: "처음 떠오른 아이디어를 기반으로 카드뉴스, 릴스, 캠페인 문구 등 여러 방향으로 확장합니다."
-              },
-              {
-                title: "최종 기획은 사람이 다듬어요!",
-                description: "AI가 제안한 여러 초안 중 브랜드 톤에 맞는 것을 골라, 지은이 다시 디벨롭해 실제 기획으로 완성합니다."
-              }
-            ],
-            images: [
-              {
-                src: "./assets/mirye-ai-3.jpg",
-                caption: "ChatGPT 아이데이션 예시"
-              },
-              {
-                src: "./assets/mirye-ai-4.jpg",
-                caption: "피그마에서 최종 콘텐츠로 정리한 예시"
-              }
-            ],
-            effect: [
-              ["Before", "한 가지 방향으로 오래 고민"],
-              ["After", "여러 방향을 빠르게 비교 후 최종 기획으로 디벨롭"]
-            ]
-          }
+     
         ]
       },
       lessons: [
@@ -147,11 +121,11 @@ const REPORT = {
             images: [
               {
                 src: "./assets/brandrise-ai-1.jpg",
-                caption: "캡션 구조화 예시"
+                caption: "AI가 작성해준 블로그 글 20편 모음"
               },
               {
                 src: "./assets/brandrise-ai-2.jpg",
-                caption: "블로그 글 초안 작성 예시"
+                caption: "실제 블로그 게시글"
               }
             ],
             effect: [
@@ -159,32 +133,7 @@ const REPORT = {
               ["After", "핵심 문장 정리 20분 이내 / 블로그 글 한 번에 작성하여 검수만 하고 바로 업로드 (20분 내외)"]
             ]
           },
-          {
-            title: "<mark>반복되는 포트폴리오 콘텐츠를 같은 구조로 빠르게 제작</mark>",
-            cases: [
-              {
-                title: "포맷을 고정해요!",
-                description: "프로젝트 소개, 주요 역할, 성과, 인사이트 순서로 구조를 고정해 매번 새로 고민하는 시간을 줄입니다."
-              },
-              {
-                title: "브랜드 신뢰도를 쌓아요!",
-                description: "흩어진 프로젝트 경험을 같은 톤의 포트폴리오 콘텐츠로 정리해 브랜드라이즈의 전문성을 보여줍니다."
-              }
-            ],
-            images: [
-              {
-                src: "./assets/brandrise-ai-3.jpg",
-                caption: "포트폴리오 콘텐츠 구조 예시"
-              },
-              {
-                src: "./assets/brandrise-ai-4.jpg",
-                caption: "인스타그램/블로그 발행 예시"
-              }
-            ],
-            effect: [
-              ["Before", "프로젝트마다 문구 방향을 새로 고민"],
-              ["After", "고정 구조 안에서 빠르게 문구 작성 후 업로드"]
-            ]
+       
           }
         ]
       },
@@ -202,7 +151,7 @@ const REPORT = {
       number: "PROJECT 03",
       title: "고벤처포럼",
       subtitle: "선배 창업가들의 재능기부로 만들어진 선순환, 스타트업을 위한 네트워킹 포럼!",
-      intro: "행사 사전/사후 게시물을 통해 고벤처포럼을 더 많은 사람에게 알리고, 브랜드라이즈와도 연결하여 고객사 수주로 이어지는 것이 최종 목표입니다.",
+      intro: "행사 사전/사후 게시물을 통해 고벤처포럼을 더 많은 사람에게 알리고, 브랜드라이즈와도 연결하여 고객사 수주로 이어지는 것이 최종 목표에요!",
       overview: [
         ["프로젝트 기간", "매월 마지막 주 화요일, 월간 정기 운영"],
         ["주요 과업", "행사 모집 콘텐츠 제작, 행사 현장스케치 및 사후 게시물 제작"],
@@ -236,11 +185,11 @@ const REPORT = {
             images: [
               {
                 src: "./assets/goventure-ai-1.jpg",
-                caption: "녹취록/행사 내용 정리 예시"
+                caption: "AI가 정리해준 내용으로 제작한 베지어트 박진아 대표님 브랜디드 콘텐츠"
               },
               {
                 src: "./assets/goventure-ai-2.jpg",
-                caption: "행사 후기 카드뉴스 초안 예시"
+                caption: "AI와 함께 성민님이 제작하신 고벤처포럼 웹사이트"
               }
             ],
             effect: [
@@ -248,40 +197,14 @@ const REPORT = {
               ["After", "주제별 문구를 20분 내 도출"]
             ]
           },
-          {
-            title: "<mark>행사 메시지를 딱딱한 요약이 아니라, 참여하고 싶은 콘텐츠로 전환</mark>",
-            cases: [
-              {
-                title: "핵심 인사이트를 뽑아요!",
-                description: "긴 행사 내용을 그대로 요약하지 않고, 스타트업 관계자가 관심 가질 만한 인사이트 중심으로 재구성합니다."
-              },
-              {
-                title: "현장감을 살려요!",
-                description: "보도자료 같은 문장보다 현장의 열기와 네트워킹 분위기가 느껴지는 SNS 문장으로 바꿉니다."
-              }
-            ],
-            images: [
-              {
-                src: "./assets/goventure-ai-3.jpg",
-                caption: "행사 인사이트 정리 예시"
-              },
-              {
-                src: "./assets/goventure-ai-4.jpg",
-                caption: "SNS 콘텐츠화 예시"
-              }
-            ],
-            effect: [
-              ["Before", "행사 정보를 그대로 요약"],
-              ["After", "SNS에서 읽히는 콘텐츠 톤으로 재구성"]
-            ]
-          }
+         
         ]
       },
       lessons: [
         {
-          title: "<mark>행사 콘텐츠는 요약보다 현장감 있는 콘텐츠화가 중요합니다.</mark>",
-          quote: "AI에게 행사 내용을 단순 요약하게 하기보다, 어떤 분위기로 전달할지까지 함께 지정해야 SNS 콘텐츠로 살아납니다.",
-          description: "행사 정보를 그대로 요약하면 보도자료처럼 딱딱해질 수 있습니다. ‘현장의 열기와 인사이트가 느껴지는 카드뉴스 톤’처럼 전달 분위기까지 지정했을 때 더 자연스럽게 활용할 수 있었습니다."
+          title: "<mark>현장을 생생하게 전하려면, 직관적인 메시지 전달이 필요해요! </mark>",
+          quote: "AI에게 행사 내용을 어떤 분위기로 전달할지, 어떤 메시지를 전할지 함께 지정해야 SNS 콘텐츠로 잘 전달이 되어요.",
+          description: "행사 정보를 그대로 요약하면 보도자료처럼 딱딱해질 수 있습니다. ‘현장의 열기와 인사이트가 느껴지는 카드뉴스 톤’처럼 전달 분위기까지 지정했을 때 더 자연스럽게 활용할 수 있습니다!"
         }
       ]
     }
