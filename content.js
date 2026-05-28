@@ -99,7 +99,7 @@ const REPORT = {
         },
         {
           src: "./assets/brandrise-content.jpg",
-          caption: "브랜드라이즈 블로그 글"
+          caption: "AI가 작성하는 브랜드라이즈 캡션 글"
         }
       ],
       ai: {
